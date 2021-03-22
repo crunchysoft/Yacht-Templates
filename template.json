@@ -2941,14 +2941,14 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "!config/Radarr"
+        "bind": "!config/radarr"
       },
       {
-        "container": "/downloads",
+        "container": "/data/downloads",
         "bind": "!downloads"
       },
       {
-        "container": "/movies",
+        "container": "/data/movies",
         "bind": "!movies"
       }
     ],
@@ -3252,18 +3252,14 @@
     "volumes": [
       {
         "container": "/config",
-        "bind": "!config/Sonarr"
+        "bind": "!config/sonarr"
       },
       {
-        "container": "/dev/rtc",
-        "bind": "/dev/rtc"
-      },
-      {
-        "container": "/tv",
+        "container": "/data/tv",
         "bind": "!tv"
       },
       {
-        "container": "/downloads",
+        "container": "/data/downloads",
         "bind": "!downloads"
       }
     ],
