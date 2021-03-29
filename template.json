@@ -3244,6 +3244,8 @@
     ],
     "platform": "linux",
     "restart_policy": "unless-stopped",
+    "Memory": "3221225472",
+    "NanoCpus": "0.5",
     "ports": [
       {
         "WebUI": "8989:8989/tcp"
